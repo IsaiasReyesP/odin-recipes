@@ -1,0 +1,41 @@
+.alllist{
+    font-family: Helvetica,sans-serif;
+}
+.allps{
+    font-family:'Times New Roman',Georgia,Garamond;
+    font-size: 20px;
+    font-weight: 500;
+}
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+#links{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+*{
+    color:white
+}
+.red,.yellow,.brown{
+    font-size: 20px;
+}
+.brown{
+    color:rgba(205, 109, 20, 0.23);
+}
+.yellow{
+    color:yellow;
+}
+.red{
+    color:red;
+}
+.summary{
+    text-align: center;
+    font-size: 25px;
+}
