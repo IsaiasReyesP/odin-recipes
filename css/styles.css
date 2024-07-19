@@ -1,5 +1,7 @@
 .alllist{
     font-family: Helvetica,sans-serif;
+    border:5px dotted white;
+    width:fit-content
 }
 .allps{
     font-family:'Times New Roman',Georgia,Garamond;
@@ -73,5 +75,12 @@ body{
 }
 h2{
     border:3px solid white;
+    margin:20px 500px;
     
+}
+h3{
+    border:3px solid white;
+    width:fit-content;
+    margin-left:15px
+
 }
