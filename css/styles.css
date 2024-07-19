@@ -1,12 +1,14 @@
 .alllist{
     font-family: Helvetica,sans-serif;
     border:5px dotted white;
-    width:fit-content
+    width:fit-content;
+    margin-left: 10px;
 }
 .allps{
     font-family:'Times New Roman',Georgia,Garamond;
     font-size: 20px;
     font-weight: 500;
+    margin:20px 50px;
 }
 img{
     display:block;
@@ -47,18 +49,33 @@ h1 {
 .red,.yellow,.brown{
     font-size: 20px;
 }
-.brown{
-    color:rgba(106, 54, 5, 0.74);
-    border: 3px solid rgba(106, 54, 5, 0.74);
+.brown button{
+    color:rgb(255, 255, 255);
+    border:3px solid;
+    background-color: rgba(106, 54, 5, 0.74);
 }
-.yellow{
-    color:yellow;
-    border: 3px solid yellow;
+.yellow button{
+    color:rgb(255, 255, 255);
+    background-color:rgb(241, 241, 59);
+    border:3px solid;
+
 }
-.red{
-    color:red;
-    border: 3px solid red;
+.red button{
+    color:rgb(255, 255, 255);
+    background-color: rgb(234, 0, 0);
+    border:3px solid;
 }
+.brbut:hover{
+    background-color: rgba(146, 84, 27, 0.74)
+}
+.yebut:hover{
+    background-color: rgb(246, 246, 104);
+}
+.rebut:hover{
+    background-color: rgb(243, 54, 54);
+}
+
+
 .summary{
     text-align: center;
     font-size: 25px;
@@ -70,8 +87,13 @@ body{
 .buttons{
     display:flex;
     justify-content: space-around;
+}
+button{
+    padding:20px;
+    border-radius: 1rem;
+    font-size: 18px;
    
-
+    
 }
 h2{
     border:3px solid white;
