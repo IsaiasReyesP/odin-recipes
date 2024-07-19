@@ -15,12 +15,16 @@ h1 {
     text-align: center;
     font-size: 70px;
     border:5px solid white;
-    margin-top:6px;
+    margin-top:20px;
     margin-bottom:50px;
 }
 .machead{
     margin-right: 250px;
     margin-left:250px;
+}
+.frenchhead{
+    margin-right: 360px;
+    margin-left: 360px;
 }
 #links{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
