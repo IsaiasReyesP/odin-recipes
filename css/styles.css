@@ -17,7 +17,10 @@ h1 {
     border:5px solid white;
     margin-top:6px;
     margin-bottom:50px;
-
+}
+.machead{
+    margin-right: 250px;
+    margin-left:250px;
 }
 #links{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -42,4 +45,8 @@ h1 {
 .summary{
     text-align: center;
     font-size: 25px;
+}
+body{
+    margin: 100px;
+    border:10px solid rgb(255, 255, 255);
 }
