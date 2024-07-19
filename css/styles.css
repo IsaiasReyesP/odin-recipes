@@ -46,13 +46,16 @@ h1 {
     font-size: 20px;
 }
 .brown{
-    color:rgba(205, 109, 20, 0.23);
+    color:rgba(106, 54, 5, 0.74);
+    border: 3px solid rgba(106, 54, 5, 0.74);
 }
 .yellow{
     color:yellow;
+    border: 3px solid yellow;
 }
 .red{
     color:red;
+    border: 3px solid red;
 }
 .summary{
     text-align: center;
@@ -67,4 +70,8 @@ body{
     justify-content: space-around;
    
 
+}
+h2{
+    border:3px solid white;
+    
 }
